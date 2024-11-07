@@ -1,6 +1,7 @@
 import { openai } from "@/app/openai";
 
 export const runtime = "nodejs";
+export const maxDuration = 5;
 
 // Create a new assistant
 export async function POST() {
